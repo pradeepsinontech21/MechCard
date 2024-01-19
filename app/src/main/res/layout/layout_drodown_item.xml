@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/text1"
+    style="?android:attr/dropDownItemStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="marquee"
+    android:singleLine="true"
+    android:paddingVertical="@dimen/_2sdp"
+    android:textSize="@dimen/_8ssp"
+    android:textColor="@color/text_medium"
+    android:fontFamily="@font/inter_regular"
+    android:textAppearance="?android:attr/textAppearanceLargePopupMenu"
+    tools:text="Simple Item" />

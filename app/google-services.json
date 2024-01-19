@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "858271914877",
+    "project_id": "mechcard-94715",
+    "storage_bucket": "mechcard-94715.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858271914877:android:cb52c6f52a635455caca14",
+        "android_client_info": {
+          "package_name": "com.mechcard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdz2GltTY3m0_bt5z0iRAlkt6bpUoKndQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

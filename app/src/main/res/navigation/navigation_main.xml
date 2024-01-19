@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/captureFaceFragment">
+
+    <fragment
+        android:id="@+id/captureFaceFragment"
+        android:name="com.mechcard.ui.capture.CaptureFaceFragment"
+        android:label="CaptureFaceFragment"
+        tools:layout="@layout/fragment_capture_face">
+        <action
+            android:id="@+id/action_captureFaceFragment_to_addPersonFragment"
+            app:destination="@id/addPersonFragment" />
+        <action
+            android:id="@+id/action_captureFaceFragment_to_jobsFragment"
+            app:destination="@id/jobsFragment" />
+        <action
+            android:id="@+id/action_captureFaceFragment_to_runningServicesFragment"
+            app:destination="@id/runningServicesFragment" />
+
+        <action
+            android:id="@+id/action_captureFaceFragment_to_dashboardSupervisorFragment"
+            app:destination="@id/dashboardSupervisorFragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/jobsFragment"
+        android:name="com.mechcard.ui.jobs.JobsFragment"
+        android:label="fragment_jobs"
+        tools:layout="@layout/fragment_jobs">
+        <action
+            android:id="@+id/action_jobsFragment_to_manageServicesFragment"
+            app:destination="@id/manageServicesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskClockFragment"
+        android:name="com.mechcard.ui.clock.TaskClockFragment"
+        android:label="fragment_task_clock"
+        tools:layout="@layout/fragment_task_clock" />
+    <fragment
+        android:id="@+id/manageServicesFragment"
+        android:name="com.mechcard.ui.services.ManageServicesFragment"
+        android:label="fragment_manage_services"
+        tools:layout="@layout/fragment_manage_services">
+        <argument
+            android:name="selectedJob"
+            app:argType="com.mechcard.models.JobData"
+            app:nullable="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPersonFragment"
+        android:name="com.mechcard.ui.person.AddPersonFragment"
+        android:label="AddPersonFragment"
+        tools:layout="@layout/fragment_add_person">
+        <action
+            android:id="@+id/action_addPersonFragment_to_jobsFragment"
+            app:destination="@id/jobsFragment"
+            app:popUpTo="@id/captureFaceFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_addPersonFragment_to_dashboardSupervisorFragment"
+            app:popUpTo="@id/captureFaceFragment"
+            app:popUpToInclusive="false"
+            app:destination="@id/dashboardSupervisorFragment"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/runningServicesFragment"
+        android:name="com.mechcard.ui.runningServices.RunningServicesFragment"
+        android:label="RunningServicesFragment"
+        tools:layout="@layout/fragment_running_services">
+        <action
+            android:id="@+id/action_runningServicesFragment_to_jobsFragment"
+            app:destination="@id/jobsFragment"
+            app:popUpTo="@id/captureFaceFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/dashboardSupervisorFragment"
+        android:name="com.mechcard.ui.supervisor.view.Dashboard_Supervisor"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard_supervisor">
+
+        <action
+            android:id="@+id/action_dashboardSupervisorFragment_to_AddServiceFragment"
+            app:destination="@id/AddServiceFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/AddServiceFragment"
+        android:name="com.mechcard.ui.supervisor.view.AddService_Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_AddServiceFragment_to_dashboardSupervisorFragment"
+            app:destination="@id/dashboardSupervisorFragment" />
+    </fragment>
+</navigation>

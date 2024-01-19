@@ -1,0 +1,23 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="btn_size">35dp</dimen>
+    <dimen name="supervise_name_size">100dp</dimen>
+    <dimen name="table_item_height">87dp</dimen>
+    <dimen name="table_column_width">150dp</dimen>
+    <dimen name="max_char_length">40</dimen>
+
+
+    <dimen name="jobid_column_width">140dp</dimen>
+    <dimen name="vehicleid_column_width">150dp</dimen>
+    <dimen name="custname_column_width">150dp</dimen>
+    <dimen name="desc_column_width">180dp</dimen>
+    <dimen name="status_column_width">100dp</dimen>
+    <dimen name="arrow_btn_size">20dp</dimen>
+    <dimen name="mechanicengaged_column_width">140dp</dimen>
+    <dimen name="daccode_column_width">100dp</dimen>
+    <dimen name="servicedescription_column_width">160dp</dimen>
+    <dimen name="stdtime_column_width">100dp</dimen>
+    <dimen name="timeelased_column_width">140dp</dimen>
+    <dimen name="column_height">85dp</dimen>
+    <dimen name="row_height">50dp</dimen>
+</resources>

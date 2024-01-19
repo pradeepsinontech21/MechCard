@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="green">#00B707</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="pin_background">#42474E</color>
+
+
+
+    <color name="seed">#005a97</color>
+    <color name="primary">#0061A3</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="primaryContainer">#D1E4FF</color>
+    <color name="onPrimaryContainer">#001D36</color>
+    <color name="secondary">#535F70</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="secondaryContainer">#D6E3F7</color>
+    <color name="onSecondaryContainer">#0F1C2B</color>
+    <color name="tertiary">#6B5778</color>
+    <color name="onTertiary">#FFFFFF</color>
+    <color name="tertiaryContainer">#F2DAFF</color>
+    <color name="onTertiaryContainer">#251432</color>
+    <color name="error">#BA1A1A</color>
+    <color name="errorContainer">#F2B8B5</color>
+    <color name="onError">#FFFFFF</color>
+    <color name="onErrorContainer">#410002</color>
+    <color name="background">#000000</color>
+    <color name="onBackground">#1A1C1E</color>
+    <color name="surface">#FDFCFF</color>
+    <color name="onSurface">#1A1C1E</color>
+    <color name="surfaceVariant">#DFE2EB</color>
+    <color name="onSurfaceVariant">#42474E</color>
+    <color name="outline">#73777F</color>
+    <color name="inverseOnSurface">#F1F0F4</color>
+    <color name="inverseSurface">#2F3033</color>
+    <color name="inversePrimary">#9ECAFF</color>
+    <color name="shadow">#000000</color>
+    <color name="surfaceTint">#0061A3</color>
+    <color name="outlineVariant">#C3C7CF</color>
+    <color name="scrim">#000000</color>
+    <color name="grey_300">#4C4C4C</color>
+
+    <color name="text_dark">#558ED5</color>
+    <color name="text_medium">#D8D8D8</color>
+    <color name="text_light">#FFFFFF</color>
+
+    <color name="icon">#FFFFFF</color>
+    <color name="text_background">@android:color/black</color>
+    <color name="card_background">#171717</color>
+
+<!--    <color name="face_frame">#FFFFFF</color>-->
+<!--    <color name="dialogbackground">#000000</color>-->
+
+    <color name="colorPrimary">#035F56</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+</resources>

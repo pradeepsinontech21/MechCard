@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:contentPaddingLeft="18dp"
+    card_view:contentPaddingRight="18dp"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardElevation="7dp"
+    card_view:cardBackgroundColor="@color/colorPrimary"
+    android:layout_marginLeft="8dp"
+    android:layout_marginBottom="@dimen/_16sdp"
+
+    >
+
+    <TextView
+        android:id="@+id/tv_pets"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pet Name"
+        android:textColor="#fff"/>
+
+</androidx.cardview.widget.CardView>
